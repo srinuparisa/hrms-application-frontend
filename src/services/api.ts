@@ -4,7 +4,7 @@
  * Falls back to LocalStorage if backend is unreachable or not configured.
  */
 
-const API_BASE_URL = (import.meta as any).env?.VITE_API_URL || 'https://hrms-application-backend-wws1.onrender.com';
+const API_BASE_URL = (import.meta as any).env?.VITE_API_URL || 'https://hrms-application-backend-wws1.onrender.com/api';
 
 // Helper to get JWT token from localStorage
 function getAuthHeader(): Record<string, string> {
