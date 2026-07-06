@@ -84,7 +84,7 @@ export default function Navbar({
         </div>
 
         {/* Dynamic Sandbox Role Switcher - Massive DX Value! */}
-        <div className="relative">
+        {/* <div className="relative">
           <button
             id="btn-navbar-role-switcher"
             onClick={() => setShowRoleDropdown(!showRoleDropdown)}
@@ -127,7 +127,7 @@ export default function Navbar({
               </div>
             </>
           )}
-        </div>
+        </div> */}
 
         {/* Theme Toggler Switcher */}
         {toggleTheme && (
